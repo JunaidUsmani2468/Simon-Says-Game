@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(40, 40, 40);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+}
+
+h1 {
+    margin: 0;
+    position: absolute;
+    top: 2rem;
+    font-size: 5rem;
+}
+
+h3 {
+    margin: 0;
+    position: absolute;
+    top: 9rem;
+    width: 80%;
+    text-align: center;
+}
+
+.container {
+    background-color: transparent;
+    position: absolute;
+    top: 15rem;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    height: 130px;
+    width: 130px;
+    border: 5px solid whitesmoke;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.blue {
+    background-color: blue;
+    margin-right: 22px;
+}
+
+.red {
+    background-color: crimson;
+}
+
+.green {
+    background-color: limegreen;
+    margin-right: 22px;
+}
+
+.orange {
+    background-color: darkorange;
+}
+
+.flash {
+    background-color: white;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+}
+
+.heighScore {
+    position: absolute;
+    top: 12rem;
+    background-color: rebeccapurple;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
