@@ -74,3 +74,18 @@ h3 {
     padding: 5px 10px;
     border-radius: 20px;
 }
+
+#start-btn {
+    position: absolute;
+    top: 35rem;
+    background-color: rebeccapurple;
+    border: 2px solid white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+#start-btn:active {
+    background-color: #ccc;
+    transform: scale(0.98);
+}
