@@ -14,6 +14,7 @@ startBtn.addEventListener('click', function() {
     if (gameSt == false) {
         console.log("game is started");
         gameSt = true;
+        startBtn.style.display = "none";
         levelUp();
     }
 });
@@ -88,4 +89,7 @@ function reset() {
     gameSeq = [];
     userSeq = [];
     level = 0;
+
+    startBtn.style.display = "inline"; 
+    startBtn.innerText = "Restart Game";
 }
