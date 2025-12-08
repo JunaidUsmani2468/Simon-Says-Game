@@ -91,7 +91,7 @@ h3 {
     transform: scale(0.98);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     h1 {
         font-size: 4rem;
     }
