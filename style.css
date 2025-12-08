@@ -12,7 +12,7 @@ h1 {
     margin: 0;
     position: absolute;
     top: 2rem;
-    font-size: 4.8rem;
+    font-size: 5rem;
 }
 
 h3 {
@@ -89,4 +89,10 @@ h3 {
 #start-btn:active {
     background-color: #ccc;
     transform: scale(0.98);
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 4rem;
+    }
 }
